@@ -1,0 +1,23 @@
+{
+  "name": "fcl",
+  "version": "1.0.0",
+  "description": "Freight Care Logistics",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Ashworth",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fs": "0.0.2",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markash/fcl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markash/fcl/issues"
+  },
+  "homepage": "https://github.com/markash/fcl#readme"
+}

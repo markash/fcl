@@ -1,0 +1,25 @@
+.jumbotron > img {
+    position: relative;
+}
+
+.jumbotron > p {
+    position: relative;
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+}
+
+.jumbotron {
+    margin-bottom: 10px;
+}
+
+h1, .h1 {
+    font-weight: 600;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        padding-bottom: 0px;
+    }
+}
