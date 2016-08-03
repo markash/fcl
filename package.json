@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "Freight Care Logistics",
   "main": "app.js",
+  "engines": {
+    "node": "5.9.1"
+  },
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mark Ashworth",
   "license": "Apache-2.0",
   "dependencies": {
     "fs": "0.0.2",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
